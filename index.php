@@ -81,7 +81,7 @@
                                     <p><strong>Conectando startups con capital privado</strong></p>
                                 </div><!--/.col-md-8-->
                             </div><!--/.row-->
-                            <a href="https://gust.com/organizations/disruptive-angels/public_profile" class="myButton" target="_blank">Solicita Inversión</a>
+                            <a href="https://gust.com/organizations/disruptive-angels/public_profile" class="myButton" target="_blank">SOLICITA INVERSIÓN</a>
 
                         </div><!--/.container-->
                     </div><!--/.caption-box-->
