@@ -81,6 +81,8 @@
                                     <p><strong>Conectando startups con capital privado</strong></p>
                                 </div><!--/.col-md-8-->
                             </div><!--/.row-->
+                            <a href="#" class="myButton">Empieza tu proceso de inversión</a>
+
                         </div><!--/.container-->
                     </div><!--/.caption-box-->
                 </div><!--/.slider1-->
