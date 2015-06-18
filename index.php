@@ -132,14 +132,16 @@
       </div>
     </section>
 
-    <section>
+    <!-- <section>
       <div class="wrapper">
-      </div>
+      </div> -->
 
     </section>
       <footer>
-        <div class="wrapper">
-            <h3>Síguenos en redes sociales</h3>
+
+              <p class="copyright">&copy;2015 Disruptive Angels. Todos los derechos reservados.</p>
+            </div>
+          </div>
         </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
