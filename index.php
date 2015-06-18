@@ -1,366 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <title>Disruptive Angels</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disruptive Angels</title>
+    <!--Google Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400,400italic' rel='stylesheet' type='text/css'>
 
-        <!-- Le styles -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/owl.carousel.css" rel="stylesheet">
-        <link href="css/prettyPhoto.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Cinzel:400,900,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic,600italic,600&subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,cyrillic' rel='stylesheet' type='text/css'>
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <link href="styles/normalize.css" rel='stylesheet'>
+    <link href="styles/styles.css" rel='stylesheet'>
 
-        <!-- Fav and touch icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
-        <link rel="shortcut icon" href="images/favicon.png"><!--favicon image-->
-        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    </head>
+  </head>
+  <body>
 
-	<body>
-    	<!-- Preloader -->
-        <div id="preloader">
-            <div id="status"><img src="images/blue-logo.png" alt="Cargando contenido super cool.."></div>
+<!--Top Nav Menu -->
+  <header class="header">
+    <div class="wrapper">
+      <img class="logo" src='images/logo.png'>
+      <nav>
+          <a class="menuItem" href="nosotros.html">Nosotros</a>
+          <!-- <a class="menuItem" href="startups.html">Portafolio</a> -->
+          <a class="menuItem" href="http://blog.disruptiveangels.com">Blog</a>
+          <a class="menuItem" href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+  </header>
+<!--Main section -->
+
+    <section class="main">
+      <div class="wrapper">
+        <h1 class="main_title">Creamos innovación emprendedora </h1>
+        <p class="main_info"> - Buscamos Emprendedores - </p>
+      </div>
+    </section>
+
+
+<!--  3 columns with same characteristics different info -->
+    <section class="process">
+      <div class="wrapper">
+        <h2 class="title">Mentes brillantes, innovación disruptiva</h2>
+        <div class="processItem">
+          <img class="process-image" src='images/create_icon.png'>
+          <div class="incol_content">
+              <h3 class="incol_title">CREAMOS</h3>
+              <p>A través de nuestro proceso y usando nuestra plataforma creamos startups de tecnología con alto potencial de crecimiento.</p>
+          </div>
         </div>
-
-		<!--YOUTUBE BACKGROUND-->
-    	<div class="bg-youtube" data-property="{videoURL:'https://www.youtube.com/watch?v=NDOtdL63Lg4&feature=youtu.be', opacity:.5, autoPlay:true, containment:'.home',  mute:true, optimizeDisplay:true, showControls:false, loop:true, addRaster:false, quality:'large', realfullscreen:'true', ratio:'auto'}"></div>
-
-        <!--HEADER START-->
-        <div class="header">
-            <div class="for-sticky">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2 col-xs-6 logo">
-                        	<a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                        </div><!--/.logo-->
-                        <div class="col-md-10 menu-box hidden-xs hidden-sm">
-                            <ul class="navigation">
-                                <li><a href="index.html#home">Inicio</a></li>
-                                <li><a href="index.html#about">Nosotros</a></li>
-                                <li><a href="index.html#works">Proyectos</a></li>
-                                <li><a href="index.html#contact">Contacto</a></li>
-                                <li><a class="external" href="http://blog.disruptiveangels.com">Blog</a></li>
-                            </ul>
-                        </div><!--/.menu-box-->
-                        <div class="box-mobile hidden-lg hidden-md">
-                            <div class="menu-btn" data-toggle="collapse" data-target=".nav-collapse">
-                            	<span class="fa fa-bars"></span>
-                            </div>
-                            <ul class="nav-collapse mobile-menu hidden-lg hidden-md"></ul>
-                        </div><!--/.box-mobile-->
-                    </div><!--/.row-->
-                </div><!--/.container-->
-            </div><!--/.for-sticky-->
-        </div><!--/.header-->
-        <!--HEADER END-->
-
-
-        <!--HOME START-->
-        <div id="home" class="home">
-            <div class="slider home-slider clearfix" data-auto-play="8000">
-                <div class="slide img-bg clearfix" data-background="images/slider/1.jpg">
-                    <div class="caption-box">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8 col-md-offset-2">
-                                    <img src="images/DA.png" alt="Disrptive Angels">
-                                    <p><strong>Conectando startups con capital privado</strong></p>
-                                </div><!--/.col-md-8-->
-                            </div><!--/.row-->
-                            <a href="https://gust.com/organizations/disruptive-angels/public_profile" class="myButton" target="_blank">SOLICITA INVERSIÓN</a>
-
-                        </div><!--/.container-->
-                    </div><!--/.caption-box-->
-                </div><!--/.slider1-->
-            </div><!--/.slider-->
-        </div><!--/home-->
-        <!--HOME END-->
-
-        <div id="about" class="content black-bg">
-        	<div class="container">
-                <div class="row">
-                    <div class="col-md-8 align-center col-md-offset-2">
-						<h2 class="head-title" style="font-family: 'Raleway', sans-serif;">.DA.</h2>
-						<p class="sub-title">Somos Disruptivos</p>
-						<div class="liner"></div>
-						<p>Somos un grupo de ángeles inversionistas fomentando el desarrollo del ecosistema emprendedor en México. Proveemos capital, contactos, y lo que sea necesario para impulsar a los mejores emprendedores.</p>
-						<div class="spacing40"></div>
-                    </div><!--/.col-md-8-->
-                </div><!--/.row-->
-            </div><!--/.container-->
-        </div><!--/about-->
-
-        <div id="team" class="clearfix">
-        	<div class="container">
-                <div class="row">
-                	<div class="team-slider" data-auto-play="8000">
-                        <div class="team-inner clearfix">
-                            <div class="col-md-5">
-                                <div class="team-spacing"></div>
-                                <h3 class="small-title">Tuto Assad</h3>
-                                <p class="team-post">CEO & Co-founder</p>
-                                <p>Get ready for a jungle jamboree! The jungle is roaring with excitement when Mowgli, Baloo and all their animal friends stir up fun and pandemonium
-                                in this party packed adventure.</p>
-                                <p>A computer hacker whose goal is to discover the reason for human existence continually finds his work. </p>
-                                <div class="spacing40"></div>
-                                <ul class="team-social">
-                                    <li><a href="https://twitter.com/tutoassad"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="index.html#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="http://instagram.com/heistuto"><i class="fa fa-instagram"></i></a></li>
-                                  </ul>
-                                <div class="spacing40 clearboth"></div>
-                            </div><!--/.col-md-4-->
-
-                            <div class="col-md-7">
-                                <img src="images/team/big1.jpg" alt="team">
-                            </div><!--/.col-md-7-->
-                        </div><!--/.team-inner-->
-
-                        <div class="team-inner clearfix">
-                            <div class="col-md-5">
-                                <div class="team-spacing"></div>
-                                <h3 class="small-title">Federico Crespo E.</h3>
-                                <p class="team-post">CSO & Co-founder</p>
-                                <p>Emprendedor, inversionista, hacker social, y pensador curioso. </p>
-                                <p>"Definitivamente lo más importante en cada emprendedor es la capacidad de ser creativo. Como siempre digo, si estás haciendo algo y tu papá lo haría de la misma manera, algo estas haciendo mal. "</p>
-                                <div class="spacing40"></div>
-                                <ul class="team-social">
-                                    <li><a href="https://twitter.com/crespofederico"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="index.html#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="http://instagram.com/crespofederico"><i class="fa fa-instagram"></i></a></li>
-
-                                </ul>
-                                <div class="spacing40 clearboth"></div>
-                            </div><!--/.col-md-4-->
-
-                            <div class="col-md-7">
-                                <img src="images/team/big2.jpg" alt="team">
-                            </div><!--/.col-md-7-->
-                        </div><!--/.team-inner-->
-
-
-                    </div><!--/.team-slider-->
-                </div><!--/.row-->
-            </div><!--/.container-->
-        </div><!--/team-->
-
-        <!--  <div id="client" class="content align-center grey-bg">
-        	<div class="container">
-            	<div class="row">
-
-                    <div class="col-md-3 col-sm-6">
-                    	<img alt="client" src="images/client/1.png">
-                        <div class="spacing40"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                    	<img alt="client" src="images/client/2.png">
-                        <div class="spacing40"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                    	<img alt="client" src="images/client/3.png">
-                        <div class="spacing40"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                    	<img alt="client" src="images/client/4.png">
-                        <div class="spacing40"></div>
-                    </div>
-                    <!-client list end-->
-
-              <!--  </div>/.row--
-            </div><!--/.container--
-        </div><!--/client-->
-
-
-
-        <div class="bg bg1 clearfix">
-			<div class="bg-mask"></div>
-			<div class="para-img"></div>
-			<div class="container big-text">
-				<p>Cultura DA</p>
-				<h3 style="font-family: 'Raleway', sans-serif;">No sobreplanees, actúa. Hazlo siempre pensando en tu fin último y nunca trabajes por dinero.</h3>
-				<div class="liner"></div>
-				<div class="clearboth"></div><i class="fa fa-heart-o"></i>
-			</div><!--/.big-text-->
-		</div><!--/.bg-->
-
-        <div id="works" class="content black-bg">
-        	<div class="container">
-                <div class="row">
-                    <div class="col-md-8 align-center col-md-offset-2">
-						<h2 class="head-title"></h2>
-						<p class="sub-title">Nuestros Proyectos</p>
-						<div class="liner"></div>
-						<p>En Disruptive Angels buscamos formas creativas de generar flujo de startups para ser fondeadas. Estos son solamente algunas de nuestras formas de lograr que más y mejores startups sean fondeadas.</p>
-						<div class="spacing40"></div>
-                    </div><!--/.col-md-8-->
-                </div><!--/.row-->
-            </div><!--/.container-->
-        </div><!--/works-->
-
-		<!--AJAX CONTENT HERE-->
-        <div id="work-ajax"  class="clearfix">
-        	<div class="worksajax clearfix"></div>
+          <div class="processItem">
+            <img class="process-image" src='images/growth_icon.png'>
+            <div class="incol_content">
+                <h3 class="incol_title">DESARROLLAMOS</h3>
+                <p>A través de nuestro proceso y usando nuestra plataforma creamos startups de tecnología con alto potencial de crecimiento.</p>
+          </div>
+          </div>
+          <div class="processItem">
+            <img class="process-image" src='images/invest_icon.png'>
+            <div class="incol_content">
+                <h3 class="incol_title">INVERTIMOS</h3>
+                <p>A través de nuestro grupo de ángeles inversionistas invertimos en startups de tecnología en etapas tempranas para ayudarlas a crecer.</p>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <div id="works-detail" class="content grey-bg">
-        	<div class="container">
+<!--  Latest on blog section -->
+    <section class="blog_section">
+      <div class="wrapper_v2">
+        <h2 class="title">Disruptive blog</h2>
 
-                <div class="row">
-                    <div class="spacing40"></div>
-                    <div class="portfolio-body clearfix">
+        <artile class="blog_title">
 
-                        <div class="col-md-4 col-sm-6 port-item design photography">
-                        	<a class="port-ajax" href="index.html#" data-link="work1.html">
-                            	<div class="port-hov">
-                                	<div class="port-content">
-                                        <p class="port-client">Grandes ideas y grandes emprendedores.</p>
-                                        <h3>Disruptive Factory</h3>
-                                    </div><!--/.port-content-->
-                                </div><!--/.port-hov-->
-                            	<img src="images/work/1.png" alt="Yup">
-                            </a><!--/.port-ajax-->
-                            <div class="spacing30"></div>
-                        </div><!--/.col-md-4-->
+          <script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fblog.disruptiveangels.com%2Frss%2F&num=1&desc=160&targ=y&utf=y&css=blogrss"  charset="UTF-8" type="text/javascript"></script>
+            </article>
+    </div>
+    </section>
 
-                        <div class="col-md-4 col-sm-6 port-item design photography">
-                            <a class="port-ajax" href="index.html#" data-link="work2.html">
-                            	<div class="port-hov">
-                                	<div class="port-content">
-                                        <p class="port-client">El Cowork & DA impulsando las mejores startups.</p>
-                                        <h3>Disruptive Bootcamp</h3>
-                                    </div><!--/.port-content-->
-                                </div><!--/.port-hov-->
-                            	<img src="images/work/3.png" alt="team">
-                            </a><!--/.port-ajax-->
-                            <div class="spacing30"></div>
-                        </div><!--/.col-md-4-->
+<!-- Columns w startup portfolio / same structure as above  -->
+    <section class="portfolio">
+      <div class="wrapper">
+        <h2 class="title">Trabajamos con los mejores emprendedores.</h2>
+        <h5 class="subtitle">Estas son algunas de las startups que forman parte de Disruptive Angels:</h5>
+        <div class="portfolio_col">
 
-                        <div class="col-md-4 col-sm-6 port-item development">
-                            <a class="port-ajax" href="index.html#" data-link="work3.html">
-                            	<div class="port-hov">
-                                	<div class="port-content">
-                                        <p class="port-client">Disrumpiendo industrias por el bien de todos.</p>
-                                        <h3>Disrupting Monterrey</h3>
-                                    </div><!--/.port-content-->
-                                </div><!--/.port-hov-->
-                            	<img src="images/work/2.png" alt="team">
-                            </a><!--/.port-ajax-->
-                            <div class="spacing30"></div>
-                        </div><!--/.col-md-4-->
-
-
-
-
-
-                    </div><!--/.portfolio-body-->
-                </div><!--/.row-->
-            </div><!--/.container-->
-        </div><!--/.works-detail-->
-
-		<div class="bg bg2 clearfix">
-			<div class="bg-mask"></div>
-			<div class="para-img"></div>
-			<div class="big-ticker clearfix">
-
-				<div class="container big-text">
-					<p>ELNORTE</p>
-					<h3 style="font-family: 'Raleway', sans-serif;">Están inyectando innovación en las grandes empresas.</h3>
-					<div class="liner"></div>
-					<div class="clearboth"></div><i class="fa fa-quote-left"></i>
-				</div><!--/.big-text-->
-
-				<div class="container big-text">
-					<p>Roru</p>
-					<h3 style="font-family: 'Raleway', sans-serif;">Están ayudando a que la comunidad emprendedora a desarrollarse más rápido.</h3>
-					<div class="liner"></div>
-					<div class="clearboth"></div><i class="fa fa-quote-left"></i>
-				</div><!--/.big-text-->
-
-			</div><!--/.big-ticker-->
-		</div><!--/.big-background-->
-
-
-
-        <div id="contact" class="content black-bg">
-        	<div class="container">
-                <div class="row">
-                    <div class="col-md-8 align-center col-md-offset-2">
-						<h2 class="head-title" style="font-family: 'Raleway', sans-serif;">Contacto</h2>
-						<p class="sub-title">Vamos a platicar</p>
-						<div class="liner"></div>
-						<p>Si eres una startup y estás buscando inversión, si tienes una idea y quieres discutirla o si simplemente quieres platicar y echar un cafe. Con gusto lo hacemos! Mándanos un correo <br> max@disruptiveangels.com</p>
-						<div class="spacing40"></div>
-                    </div><!--/.col-md-8-->
-                </div><!--/.row-->
-            </div><!--/.container-->
-        </div><!--/contact-->
-
-
-        <div id="map_canvas"><script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.map-embed.com" id="get-map-data">www.map-embed.com</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(25.646742512612086,-100.32350535410154),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(25.646742512612086, -100.32350535410154)});infowindow = new google.maps.InfoWindow({content:"<b>El Cowork @ Torre V&eacute;rtice piso 12</b><br/>Frida Kahlo 195, int.1205<br/>66269 San Pedro" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></div>
-
-        <!--MAP MARKER CONTENT-->
-        <div class="hidden map-content">
-        	<div class="box-map">
-            	<img src="images/maps.jpg" alt="">
-                <h3>We are @ ELCOWORK</h3>
-                <p> Frida Kahlo 195, int.1205, Valle Oriente, San Pedro, NL, México.</p>
+          <div class="processItem">
+            <a href="http://amazify.me" target="_blank"> <img class="process-image" src='images/amazify_web.png'></a>
+            <div class="incol_content">
+                <h3 class="incol_title">Amazify</h3>
+                <p>Desarrolla a la comunidad creatvia a través de un portal de e-commerce de tshirts con diseños de artistas locales.</p>
             </div>
+          </div>
+          <div class="processItem">
+            <a href="http://skysset.com" target="_blank"> <img class="process-image" src='images/skysset_web.png'></a>
+            <div class="incol_content">
+                <h3 class="incol_title">Skysset</h3>
+                <p>A través de procesos de análisis de datos, se mide inventario en bulto para empresas de la industria de la transformación.</p>
+            </div>
+          </div>
+          <div class="processItem">
+            <a href="http://codigoparatodos.com" target="_blank"> <img class="process-image" src='images/cpt_web.png'></a>
+            <div class="incol_content">
+                <h3 class="incol_title">Código para todos</h3>
+                <p>Escuela de programación bajo la premisa de que la programación en muy poco será tan vital como el día de hoy saber inglés.</p>
+            </div>
+          </div>
         </div>
-        <!--MAP MARKER CONTENT END-->
+    </section>
 
-        <footer id="footer" class="content black-bg">
-        	<div class="container align-center">
-            	<ul class="footer-icon">
-                    <li><a href="http://facebook.com/disruptiveangels"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="http://twitter.com/disruptiveangel#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="http://youtube.com/disruptiveangels"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="http://linkedin.com/disruptive-angels"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="http://instagram.com/disruptiveangels"><i class="fa fa-instagram"></i></a></li>
-                </ul><!--/.team-icon-->
-                <div class="spacing40"></div>
-            	<p>Desarrollado con demasiado <i class="fa fa-coffee"></i> y con muchas sonrisas &copy;2015 <a href="index.html#">DA</a></p>
-            </div><!--/.container-->
-        </footer><!--/footer-->
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript" src="js/jquery.ui.map.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.js"></script>
-    <script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.js"></script>
-	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="js/contact.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
-	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
-    <script type="text/javascript" src="js/jquery.nav.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-    <script type="text/javascript" src="js/ticker.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+    <!-- As seen on the press section -->
+    <section class="press">
+      <div class="wrapper">
+        <h2 class ="title">Historias siendo creadas</h2>
+        <blockquote>"Inyectando innovación a las grandes empresas"</blockquote>
+        <p class="titleSuperSmall">--ELNORTE.COM--</p>
+    </section>
 
+    <section class="innovation">
+      <div class="wrapper">
+      <h2 class="title">Innovación desde la clase industrial</h2>
+        <figure class="innovation_img">
+          <img src="images/ternium.png" alt"Ternium">
+        </figure>
+        <div>
+          <div>
+            <h4>Éxito innovando Ternium México</h4>
+            <p>A través de un proceso de Innovación abierta diseñado y ejecutado por Disruptive Angels, se logró desarrollar soluciones
+               a problemas de la industria siderúrgica que representan ahorros en más de 200 Millones de Dólares.</p>
+            <br>
+            <strong class="DAblue" href="#">Ver caso de éxito</strong>
 
-	</body>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrapper">
+      </div>
+
+    </section>
+      <footer>
+        <div class="wrapper">
+            <h3>Síguenos en redes sociales</h3>
+        </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+  </body>
 </html>
