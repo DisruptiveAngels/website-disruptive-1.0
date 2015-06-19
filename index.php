@@ -19,7 +19,7 @@
       <nav>
           <a class="menuItem" href="nosotros.html">Nosotros</a>
           <!-- <a class="menuItem" href="startups.html">Portafolio</a> -->
-          <a class="menuItem" href="http://blog.disruptiveangels.com">Blog</a>
+          <a class="menuItem" href="http://blog.disruptiveangels.com" target="_blank">Blog</a>
           <a class="menuItem" href="contacto.html">Contacto</a>
         </nav>
     </div>
@@ -125,7 +125,7 @@
             <p>A través de un proceso de Innovación abierta diseñado y ejecutado por Disruptive Angels, se logró desarrollar soluciones
                a problemas de la industria siderúrgica que representan ahorros en más de 200 Millones de Dólares.</p>
             <br>
-            <strong class="DAblue" href="#">Ver caso de éxito</strong>
+            <strong class="DAblue" href="http://blog.disruptiveangels.com/que-pasa-cuando-mezclas-a-ternium-con-30-startuperos/">Ver caso de éxito</strong>
 
           </div>
         </div>

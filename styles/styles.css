@@ -69,7 +69,7 @@ section .wrapper{
 }
 
 .header_scrolled{
-	background-color: #0f282f;
+	background-color: rgba(15,40,47,.9);
 }
 
 
